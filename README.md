@@ -1,5 +1,5 @@
 # FAKE_FCU
-Get Battery voltage reading on DJI FPV googles without using a 'real' FCU
+Get Battery voltage and altimeter reading on DJI FPV googles without using a 'real' FCU
 Measure pressure at startup and show altitude in DJI GOOGLES in upper left side, in meter
 Only positive altitude. no bother to calculate negative
 handling the BMP280 device was a pain in the ass :-) due to floating point calculations for calibration. anyway it works. amazing to notice that all data is retreived msb first, while conversion parameters are stored lsb first. just need some time to realize it.. 
